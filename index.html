@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=1024, user-scalable=no">
+
+  <title>Your deck.js Presentation</title>
+
+  <!-- Required stylesheet -->
+  <link rel="stylesheet" media="screen" href="core/deck.core.css">
+
+  <!-- Extension CSS files go here. Remove or add as needed. -->
+  <link rel="stylesheet" media="screen" href="extensions/goto/deck.goto.css">
+  <link rel="stylesheet" media="screen" href="extensions/menu/deck.menu.css">
+  <link rel="stylesheet" media="screen" href="extensions/navigation/deck.navigation.css">
+  <link rel="stylesheet" media="screen" href="extensions/status/deck.status.css">
+  <link rel="stylesheet" media="screen" href="extensions/scale/deck.scale.css">
+
+  <!-- Style theme. More available in /themes/style/ or create your own. -->
+  <link rel="stylesheet" media="screen" href="themes/style/web-2.0.css">
+
+  <!-- Transition theme. More available in /themes/transition/ or create your own. -->
+  <link rel="stylesheet" media="screen" href="themes/transition/vertical-slide.css">
+
+  <!-- Basic black and white print styles -->
+  <link rel="stylesheet" media="print" href="core/print.css">
+
+  <!-- Required Modernizr file -->
+  <script src="modernizr.custom.js"></script>
+</head>
+<body>
+  <div class="deck-container">
+
+    <!-- Begin slides. Just make elements with a class of slide. -->
+
+    <section class="slide">
+      <h1>Project Thirsty </h1>
+          <p>ENGR 697 Final Presentation<p>
+      <img style="position: absolute; top: 540px; left: 1050px; width 415; height: 60px" src="http://upload.wikimedia.org/wikipedia/en/7/77/SFState_Logo.png">
+      <DIV style="position: absolute; top:600px; left:1050px; width:275px; height:20px">School of Engineering
+         
+    </section>
+
+    <section class="slide">
+      <h2>Content</h2>
+      
+        <ol>
+        <li  >
+         The Problem with Making Drinks
+        </li>
+        <li >
+         Our Solution
+         </li>
+         <li >
+         The Design Process
+         </li>
+         <li>
+         Results
+         </li>
+         <li >
+         Future Work - How can we Improve?
+         </li>
+         <li >
+         Demonstration of Project Thirsty
+         </li>
+         </ol>
+
+     
+    </section>
+
+ <section class="slide">
+      <h2>The Problem</h2>
+
+     <p> -Going to a bar during peak times =! fast service</p>
+     <p> -Hosting a party =! fun times</p>
+     <p> -Private bar tenders are expensive to hire.</p>
+     <p> -Drinks are not always consistently made.</p>
+     <p> -I am too lazy to make myself a drink. </p>
+    
+    </section>
+
+       <section class="slide">
+      <h2>Our Solution</h2>
+      <h3>We made an automous bar tender with this criteria:</h3>
+        <li>
+         <h3>Speed</h3>
+         <p>Four diaphragm pumps that can make a drink in < 30 seconds </p>
+        </li>
+        <li>
+          <h3>Portability</h3>
+          <p>It is fairly easy to transport</p>
+        </li>
+        <li>
+          <h3>Variety of Drink Options</h3>
+          <p>We chose four bottles for the system</p>
+        </li>
+        <li>
+         <h3>Cost</h3>
+         <p>Entire project could be made for < $100 </p>
+         </li>
+      
+   
+    </section>
+
+    <section class="slide">
+      <h2>The Design</h2>
+      <img style="position:absolute; top:125px; left:400px; WIDTH:600px; HEIGHT:300px" src="https://d1f4e657-a-62cb3a1a-s-sites.googlegroups.com/site/engr696697seniorproject/home/Untitled.jpg?attachauth=ANoY7coN-NIuAwNOnJSO_CDQeUPyBv0RPPpG1UGNdUOYC0jaD3RkJ4Q06NLy82qTBoZ2BbbH2_PjR_iPKnXP1MBiiib38pN2DQmHHjMtWcfOHU5HpB6csGka7j9zQIX6KTscNg-gmibgJiRhGUKMYhR_qyOKvU7UMWsu-hUw7Y18GZiGlm8KIlNv833b4ZeyprkQ5e6cjmnV50M0kMqWtQWbPfvG9cvuXr-ikmCime114Udn8aT8yh0%3D&attredirects=0"></p>
+
+     <DIV style="position: relative; top:5px; left:50px; width:275px; height:20px"><p><h3>Android App</h3></p>
+<ul>
+<li>Allows the user to connect to the proper Bluetooth module, HC-05.</li>
+<li>
+Displays on and off buttons to manually control selected group.</li>
+<li> Has List of available drinks to make.</li>
+<li>Selected drink has description. </li> </DIV>
+
+<DIV style="position: relative; top:250px; left:450px; width:475px; height:20px"><p><h3>Microcontroller</h3></p>
+<ul>
+<li>Receives Bluetooth messages </li>
+<li>
+Decrypts messages and processes to respective functions
+</li>
+ </DIV>
+
+ <DIV style="position: relative; top:-100px; left:1000px; width:275px; height:20px"><p><h3>System</h3></p>
+<ul>
+<li>Appropriate pumps and flowmeters dispense liquid
+ </li>
+<li>
+Hall-effect flowmeters send increment ticks back to microprocessor
+
+</li>
+<li>
+Processor turns off pumps and flowmeters once appropriate liquid volume is reached
+</li>
+ </DIV>
+
+
+       
+
+
+    
+    </section>
+
+      <section class="slide">
+      <h2>Results</h2>
+
+     <h3> Project Thirsty Achieved the Stated Design Goals:</h3>
+     <ul>
+     <li>
+Provides speed in dispensing the liquid</li>
+<li>Materials used are cost effective</li>
+<li>Has wireless user interface</li>
+<li>The provided android application is easy to use</li>
+<li>Choice of 4 bottles allows multiple drinks</li>
+<li>Project is in a table top enclosure for  transportation</li>
+</ul>
+
+
+    
+      </section>
+
+      <section class="slide">
+      <h2>Future Work</h2>
+      <ul>
+      <li>Replacement of diaphragm pumps with rotary pumps</li>
+      <li>Smaller enclosure</li>
+      <li>Self enclosed battery system  (one power source)</li>
+      <li>Have more than 4 bottles to make beverages </li>
+      <li>Make it wifi enabled and have a Web App</li>
+
+ 
+      </section>
+
+      <section class="slide">
+      <h2>Demonstration Time</h2>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/XsN4nJTiK7s" frameborder="0" allowfullscreen></iframe>
+      </section>
+
+    <!-- End slides. -->
+
+    <!-- Begin extension snippets. Add or remove as needed. -->
+
+    <!-- deck.navigation snippet -->
+    <div aria-role="navigation">
+      <a href="#" class="deck-prev-link" title="Previous">&#8592;</a>
+      <a href="#" class="deck-next-link" title="Next">&#8594;</a>
+    </div>
+
+    <!-- deck.status snippet -->
+    <p class="deck-status" aria-role="status">
+      <span class="deck-status-current"></span>
+      /
+      <span class="deck-status-total"></span>
+    </p>
+
+    <!-- deck.goto snippet -->
+    <form action="." method="get" class="goto-form">
+      <label for="goto-slide">Go to slide:</label>
+      <input type="text" name="slidenum" id="goto-slide" list="goto-datalist">
+      <datalist id="goto-datalist"></datalist>
+      <input type="submit" value="Go">
+    </form>
+
+    <!-- End extension snippets. -->
+  </div>
+
+<!-- Required JS files. -->
+<script src="jquery.min.js"></script>
+<script src="core/deck.core.js"></script>
+
+<!-- Extension JS files. Add or remove as needed. -->
+<script src="extensions/menu/deck.menu.js"></script>
+<script src="extensions/goto/deck.goto.js"></script>
+<script src="extensions/status/deck.status.js"></script>
+<script src="extensions/navigation/deck.navigation.js"></script>
+<script src="extensions/scale/deck.scale.js"></script>
+
+<!-- Initialize the deck. You can put this in an external file if desired. -->
+<script>
+  $(function() {
+    $.deck('.slide');
+  });
+</script>
+</body>
+</html>
